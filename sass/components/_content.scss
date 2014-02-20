@@ -4,7 +4,7 @@
 .sticky {
 }
 .hentry {
-	margin: 0 0 $vspacing;
+	margin: 0 0 $vert-spacing-unit;
 }
 .byline,
 .updated {
@@ -18,9 +18,9 @@
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: $vspacing 0 0;
+	margin: $vert-spacing-unit 0 0;
 }
 .page-links {
 	clear: both;
-	margin: 0 0 $vspacing;
+	margin: 0 0 $vert-spacing-unit;
 }

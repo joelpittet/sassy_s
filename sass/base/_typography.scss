@@ -1,3 +1,147 @@
+
+/**
+ * $BASE-TYPOGRAPHY
+ */
+html {
+  font-family: $base-font;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $grey;
+
+  /* Large desktop */
+  @include breakpoint ($tablet) {
+    font-size: em($base-font-size * 1.1);
+  }
+
+  /* Portrait tablet to landscape and desktop */
+  @include breakpoint ($normal) {
+    font-size: em($base-font-size * 1.2);
+  }
+
+  /* Landscape phone to portrait tablet */
+  @include breakpoint ($wide) {
+    font-size: em($base-font-size * 1.3);
+  }
+}
+
+/**
+ * $STYLES
+ */
+em, i {
+  font-style: italic;
+  font-weight: 400;
+}
+
+strong, b {
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+/**
+ * $HEADINGS
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-style: normal;
+  font-weight: 400;
+  strong, b {
+    font-weight: 700;
+  }
+  em, i {
+    font-style: italic;
+    font-weight: 400;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include rhythm(0, 0, 0, 0.2);
+  color: #58595b;
+  font-family: $header-font;
+  text-transform: uppercase;
+
+  a,
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color;
+  }
+  @include transition(font-size 0.3s ease-out);
+}
+
+h1 {
+  @include font-size(40px);
+}
+
+h2 {
+  @include font-size(28px);
+  color: #5A5A5C;
+}
+
+h3 {
+  @include font-size(21px);
+  color: lighten(#5A5A5C, 20%);
+}
+
+h4 {
+  @include font-size(18px);
+}
+
+h5 {
+  @include font-size(16px);
+}
+
+h6 {
+  @include font-size(14px);
+  color: #5A5A5C;
+}
+
+/**
+ * $PARAGRAPHS
+ */
+p,
+%p {
+  margin: 0;
+  @include rhythm(0, 0, 0, 1);
+}
+p + img {
+  float: left;
+  margin-right: $horz-spacing-unit;
+}
+
+/**
+ * $QUOTES
+ */
+blockquote {
+  @extend %p;
+  @include rhythm(0, 1, 1, 1);
+  padding: 0 1.5em;
+
+  @include rhythm-borders(1px);
+  @include apply-side-rhythm-border(left, 10px);
+  font-style: italic;
+  color: $primary-color;
+
+  p {
+    margin: 0;
+  }
+}
+
+q {
+  font-style: italic;
+}
+
+
+
+
 body,
 button,
 input,
@@ -19,33 +163,14 @@ hr {
 	background-color: #ccc;
 	border: 0;
 	height: 1px;
-	margin-bottom: $vspacing;
+	margin-bottom: $vert-spacing-unit;
 }
 
 /* Text elements */
 p {
-	margin-bottom: $vspacing;
+	margin-bottom: $vert-spacing-unit;
 }
-ul, ol {
-	margin: 0 0 $vspacing 3em;
-}
-ul {
-	list-style: disc;
-}
-ol {
-	list-style: decimal;
-}
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: $vspacing;
-}
-dt {
-	font-weight: bold;
-}
-dd {
-	margin: 0 $vspacing $vspacing;
-}
+
 b, strong {
 	font-weight: bold;
 }
@@ -53,10 +178,10 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	margin: 0 $vspacing;
+	margin: 0 $vert-spacing-unit;
 }
 address {
-	margin: 0 0 $vspacing;
+	margin: 0 0 $vert-spacing-unit;
 }
 pre {
 	background: #eee;
@@ -103,23 +228,4 @@ big {
 figure {
 	margin: 0;
 }
-table {
-	margin: 0 0 $vspacing;
-	width: 100%;
-}
-th {
-	font-weight: bold;
-}
-img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
-}
 
-/* Links */
-a {
-	color: $link-color;
-	@include hoverActiveFocus(color, darken($link-color, 30%));
-}
-a:visited {
-	color: $link-visited;
-}

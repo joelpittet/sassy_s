@@ -4,7 +4,180 @@
 /**
  * $HLIST
  */
+/**
+ * $BASE-TYPOGRAPHY
+ */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\000035}}
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #aaaaaa;
+  /* Large desktop */
+  /* Portrait tablet to landscape and desktop */
+  /* Landscape phone to portrait tablet */ }
+  @media (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\000035}}
+    html {
+      font-size: 1.1em; } }
+  @media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\000035}}
+    html {
+      font-size: 1.2em; } }
+  @media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\000035}}
+    html {
+      font-size: 1.3em; } }
+
+/**
+ * $STYLES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000331}}
+em, i {
+  font-style: italic;
+  font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
+strong, b {
+  font-style: normal;
+  font-weight: 700; }
+
+/**
+ * $HEADINGS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000345}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000349}}
+  h1 strong, h1 b, h2 strong, h2 b, h3 strong, h3 b, h4 strong, h4 b, h5 strong, h5 b, h6 strong, h6 b {
+    font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000352}}
+  h1 em, h1 i, h2 em, h2 i, h3 em, h3 i, h4 em, h4 i, h5 em, h5 i, h6 em, h6 i {
+    font-style: italic;
+    font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000363}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em;
+  color: #58595b;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: font-size 0.3s ease-out;
+  -moz-transition: font-size 0.3s ease-out;
+  -o-transition: font-size 0.3s ease-out;
+  transition: font-size 0.3s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000370}}
+  h1 a,
+  h1 a:visited,
+  h2 a,
+  h2 a:visited,
+  h3 a,
+  h3 a:visited,
+  h4 a,
+  h4 a:visited,
+  h5 a,
+  h5 a:visited,
+  h6 a,
+  h6 a:visited {
+    color: inherit;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000374}}
+  h1 a:hover,
+  h2 a:hover,
+  h3 a:hover,
+  h4 a:hover,
+  h5 a:hover,
+  h6 a:hover {
+    color: #2ecc40; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000380}}
+h1 {
+  font-size: 40px;
+  font-size: 2.85714rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000384}}
+h2 {
+  font-size: 28px;
+  font-size: 2rem;
+  color: #5A5A5C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000389}}
+h3 {
+  font-size: 21px;
+  font-size: 1.5rem;
+  color: #8d8d8f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000394}}
+h4 {
+  font-size: 18px;
+  font-size: 1.28571rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
+h5 {
+  font-size: 16px;
+  font-size: 1.14286rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003102}}
+h6 {
+  font-size: 14px;
+  font-size: 1rem;
+  color: #5A5A5C; }
+
+/**
+ * $PARAGRAPHS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003111}}
+p,
+blockquote {
+  margin: 0;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.42857em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003115}}
+p + img {
+  float: left;
+  margin-right: 1em; }
+
+/**
+ * $QUOTES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003123}}
+blockquote {
+  margin-top: 0em;
+  padding-top: 1.42857em;
+  padding-bottom: 1.42857em;
+  margin-bottom: 1.42857em;
+  padding: 0 1.5em;
+  border-style: solid;
+  border-width: 0.07143em;
+  padding: 1.35714em;
+  border-left-style: solid;
+  border-left-width: 0.71429em;
+  padding-left: 0.71429em;
+  font-style: italic;
+  color: #2ecc40; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003133}}
+  blockquote p {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003138}}
+q {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003149}}
 body,
 button,
 input,
@@ -17,12 +190,12 @@ textarea {
   line-height: 1.5; }
 
 /* Headings */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003158}}
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003162}}
 hr {
   background-color: #ccc;
   border: 0;
@@ -30,53 +203,27 @@ hr {
   margin-bottom: 1.5em; }
 
 /* Text elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003170}}
 p {
   margin-bottom: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000329}}
-ul, ol {
-  margin: 0 0 1.5em 3em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000332}}
-ul {
-  list-style: disc; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
-ol {
-  list-style: decimal; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000339}}
-li > ul,
-li > ol {
-  margin-bottom: 0;
-  margin-left: 1.5em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000343}}
-dt {
-  font-weight: bold; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000346}}
-dd {
-  margin: 0 1.5em 1.5em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003174}}
 b, strong {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003177}}
 dfn, cite, em, i {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003180}}
 blockquote {
   margin: 0 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003183}}
 address {
   margin: 0 0 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003186}}
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -88,21 +235,21 @@ pre {
   overflow: auto;
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003197}}
 code, kbd, tt, var {
   font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003200}}
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003204}}
 mark, ins {
   background: #fff9c0;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003209}}
 sup,
 sub {
   font-size: 75%;
@@ -111,50 +258,22 @@ sub {
   position: relative;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003216}}
 sup {
   bottom: 1ex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003219}}
 sub {
   top: .5ex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003222}}
 small {
   font-size: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003225}}
 big {
   font-size: 125%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003228}}
 figure {
   margin: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003106}}
-table {
-  margin: 0 0 1.5em;
-  width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003110}}
-th {
-  font-weight: bold; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003113}}
-img {
-  height: auto;
-  /* Make sure images are scaled correctly. */
-  max-width: 100%;
-  /* Adhere to container width. */ }
-
-/* Links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003119}}
-a {
-  color: royalblue; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/abstractions\/_hoverActiveFocus\.scss}line{font-family:\000033}}
-  a:hover, a:active, a:focus {
-    color: #132c76; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/base\/_typography\.scss}line{font-family:\00003123}}
-a:visited {
-  color: purple; }

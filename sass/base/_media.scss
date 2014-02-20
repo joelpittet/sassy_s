@@ -1,0 +1,15 @@
+img, media {
+  max-width: 100%;
+  height: auto !important; // important for editor putting dimensions.
+  vertical-align: top;
+}
+
+#map_canvas img {
+    max-width: none;
+}
+
+video {
+  max-width: 100%;
+}
+
+

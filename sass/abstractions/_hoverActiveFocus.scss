@@ -1,6 +1,0 @@
-
-@mixin hoverActiveFocus($property, $value) {
-  &:hover, &:active, &:focus {
-    #{$property}: $value;
-  }
-}
