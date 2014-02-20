@@ -1,0 +1,10 @@
+// Requires compass/css3/background-size and Breakpoint
+@mixin hr-image($low-res-image, $high-res-image) {
+  background-image: image-url($low-res-image);
+  $old-output: $output;
+  @include breakpoint(print (min-resolution 1.5dppx)) {
+    background-image: image-url($high-res-image);
+    background-size: image-width($low-res-image) image-height($low-res-image);
+  }
+  $output: $old-output;
+}

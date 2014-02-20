@@ -1,0 +1,11 @@
+/**
+ * @file
+ * Print styling
+ *
+ * We provide some sane print styling.
+ */
+/* Underline all links */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/joel\/Sites\/sassy_s\/sass\/print\.scss}line{font-family:\0000311}}
+a:link,
+a:visited {
+  text-decoration: underline !important; }
